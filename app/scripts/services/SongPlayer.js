@@ -101,7 +101,6 @@
         */
         
         SongPlayer.previous = function() {
-            debugger
             var currentSongIndex = getSongIndex(SongPlayer.currentSong);
             currentSongIndex--;
             
