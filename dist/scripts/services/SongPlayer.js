@@ -56,7 +56,7 @@
         
         var getSongIndex = function(song) {
             return currentAlbum.songs.indexOf(song);
-        }
+        };
         
         /**
         * @desc Active song from the list of current Album
@@ -115,10 +115,6 @@
             }
         };
         
-//        SongPlayer.next = function() {
-//            var currentSongIndex = getSongIndex(SongPlayer.currentsong);
-//            currentSongIndex++;
-//        }
         return SongPlayer;
     };
 
