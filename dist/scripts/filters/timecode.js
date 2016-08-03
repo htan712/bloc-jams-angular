@@ -8,14 +8,23 @@
             }
             
             var wholeSeconds = Math.floor(seconds);
-            var minutes = Math.floor(wholeSeconds / 60);
-            var remainingSeconds = wholeSeconds % 60;
-            var output = minutes + ':';
-            if (remainingSeconds < 10) {
-                output += '0';
-            }
+            /** 
+            * @desc used toTimer method from Buzz library
+            */
+            var output = buzz.toTimer(wholeSeconds);
             
-            output += remainingSeconds;
+            /**
+            * @desc custom code
+            */
+            
+//            var minutes = Math.floor(wholeSeconds / 60);
+//            var remainingSeconds = wholeSeconds % 60;
+//            var output = minutes + ':';
+//            if (remainingSeconds < 10) {
+//                output += '0';
+//            }
+//            
+//            output += remainingSeconds;
         
             return output;
         };
