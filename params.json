@@ -1,0 +1,6 @@
+{
+  "name": "Bloc-Jams",
+  "tagline": "",
+  "body": "## Bloc Frontend Project Starter\r\n\r\nA music player built with AngularJS\r\n\r\nInstall the project dependencies by running:\r\n\r\n```\r\n$ npm install\r\n```\r\n\r\n## Run the Application\r\n\r\nRun the application using the Gruntfile's `default` task:\r\n\r\n```\r\n$ grunt\r\n```\r\n\r\nThe default task runs a simple server on port 3000. To view it in a any browser, go to [http://localhost:3000](http://localhost:3000).\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
